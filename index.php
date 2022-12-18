@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="loginstyle/vendor/select2/select2.min.css">
     <link rel="stylesheet" type="text/css" href="loginstyle/css/util.css">
 	<link rel="stylesheet" type="text/css" href="loginstyle/css/main.css">
-    <link rel="stylesheet" href="styles/loginstyle.css">
+    <link rel="stylesheet" href="https://peaceful-hypatia.185-207-107-69.plesk.page/styles/loginstyle.css">
     <link rel="icon" href="assets/logo.png">
     <title>Networrkers</title>
 </head>
