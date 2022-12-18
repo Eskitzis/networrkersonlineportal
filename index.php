@@ -19,7 +19,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/util.css">
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
     <!--===============================================================================================-->
-    <link rel="icon" href="assets/logo.png">
+    <link rel="icon" href="images/logo.png">
     <title>Networrkers</title>
 </head>
 <body>
@@ -27,7 +27,7 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt>
-					<img src="assets/logo.png" alt="IMG">
+					<img src="images/logo.png" alt="IMG">
 				</div>
 
 				<form class="login100-form validate-form">
