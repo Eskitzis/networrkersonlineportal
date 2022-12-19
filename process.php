@@ -13,7 +13,7 @@
     //mysql_connect("localhost", "root", "");
     //mysql_select_db("login");
 
-    $con = mysqli_connect('v2202208181594198845.nicesrv.de', 'nassos', 'nassos1106', 'users');
+    $con = new mysqli('v2202208181594198845.nicesrv.de', 'nassos', 'nassos1106', 'users');
 
     //Query the database for user
     $result = mysqli_query($con, "select * from networrkers where username = '$username' and password = '$password'") 
