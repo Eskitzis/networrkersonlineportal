@@ -20,6 +20,12 @@
               or die("Failed to query database".mysql_error());
     $row = mysqli_fetch_array($result, MYSQLI_BOTH);
 
+    // Check connection
+    if ($con->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+    echo "Connected successfully";
+
     if ($row['username'] == $username && $row['password'] == $password && $row['role'] == "employee"){
         echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
         header("Location: employee.php");
@@ -49,6 +55,4 @@
         //$_SESSION['sk'] = $row['skill'];
     }
     else echo "Not";
-
-
 ?>
