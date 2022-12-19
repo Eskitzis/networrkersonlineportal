@@ -1,4 +1,5 @@
 <?php
+    session_start(); 
     $username = $_POST['user'];
     $password = $_POST['pass'];
 
@@ -8,7 +9,7 @@
     //$username = mysql_real_escape_string($username);
     //$password = mysql_real_escape_string($password);
 
-    $con = mysqli_connect('v2202208181594198845.nicesrv.de', 'nassos', 'nassos1106', 'users');
+    $conn = mysqli_connect('v2202208181594198845.nicesrv.de', 'nassos', 'nassos1106', 'users');
 
     /*if ($con->connect_error) {
         die("Connection failed: " . $con->connect_error);
@@ -17,7 +18,7 @@
     */
 
     //Query the database for user
-    $result = mysqli_query($con, "select * from networrkers where username = '$username' and password = '$password'") 
+    $result = mysqli_query($conn, "select * from networrkers where username = '$username' and password = '$password'") 
               or die("Failed to query database".mysql_error());
     $row = mysqli_fetch_array($result, MYSQLI_BOTH);
 
