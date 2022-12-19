@@ -29,31 +29,31 @@
     */
 
     if ($row['username'] == $username && $row['password'] == $password && $row['role'] == "employee"){
-        echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
+        //echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
         header("Location: employee.php");
         session_start();
-        //$_SESSION['fname'] = $row['fullname'];
-        //$_SESSION['url'] = $row['caldav'];
+        $_SESSION['fname'] = $row['fullname'];
+        $_SESSION['url'] = $row['caldav'];
         //$_SESSION['sk'] = $row['skill'];
     }
     else echo "Not";
 
     if ($row['username'] == $username && $row['password'] == $password && $row['role'] == "teamleader"){
-        echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
+        //echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
         header("Location: teamleader.php");
         session_start();
-        //$_SESSION['fname'] = $row['fullname'];
-        //$_SESSION['url'] = $row['caldav'];
+        $_SESSION['fname'] = $row['fullname'];
+        $_SESSION['url'] = $row['caldav'];
         //$_SESSION['sk'] = $row['skill'];
     }
     else echo "Not";
 
     if ($row['username'] == $username && $row['password'] == $password && $row['role'] == "admin"){
-        echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
+        //echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
         header("Location: admin.php");
         session_start();
-        //$_SESSION['fname'] = $row['fullname'];
-        //$_SESSION['url'] = $row['caldav'];
+        $_SESSION['fname'] = $row['fullname'];
+        $_SESSION['url'] = $row['caldav'];
         //$_SESSION['sk'] = $row['skill'];
     }
     else echo "Not";
