@@ -34,7 +34,7 @@
     }
     if ($row['role'] == "admin"){
         //echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
-        header("Location: admin.php");
+        header("Location: weekplan.html");
         //session_start();
     }
 ?>
