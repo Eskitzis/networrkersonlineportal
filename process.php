@@ -1,5 +1,4 @@
 <?php
-    error_reporting(0);
     //values passed from index form
     $username = $_POST['user'];
     $password = $_POST['pass'];
@@ -21,7 +20,6 @@
         header("Location: employee.php");
         $_SESSION['fname'] = $row['fullname'];
         $_SESSION['url'] = $row['caldav'];
-        //$_SESSION['sk'] = $row['skill'];
     }
 
     if ($row['username'] == $username && $row['password'] == $password && $row['role'] == "teamleader"){
@@ -30,7 +28,6 @@
         header("Location: teamleader.php");
         $_SESSION['fname'] = $row['fullname'];
         $_SESSION['url'] = $row['caldav'];
-        //$_SESSION['sk'] = $row['skill'];
     }
 
     if ($row['username'] == $username && $row['password'] == $password && $row['role'] == "admin"){
@@ -39,6 +36,5 @@
         header("Location: admin.php");
         $_SESSION['fname'] = $row['fullname'];
         $_SESSION['url'] = $row['caldav'];
-        //$_SESSION['sk'] = $row['skill'];
     }
 ?>
