@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://peaceful-hypatia.185-207-107-69.plesk.page/images/logo.png">
 	<link rel="stylesheet" type="text/css" href="styles/admin.css">
+    <script src="js/admin.js"></script>
     <title>Admin</title>
 </head>
 <body>
@@ -62,7 +63,7 @@
                 </li>
             </ul>
         </div>
-    </nav>
+</nav>
 <!--//////////////////////////////////////////NAVBAR END//////////////////////////////////////////-->
 </body>
 </html>
