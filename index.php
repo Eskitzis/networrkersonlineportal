@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,12 +24,12 @@
 					<img src="images/logo.png" alt="IMG">
 				</div>
 
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" action="process.php" method="POST">
 					<span class="login100-form-title">
 						Networrkers Login
 					</span>
 
-					<div class="wrap-input100 validate-input">
+					<div class="wrap-input100 validate-input" data-validate = "Username is Required">
 						<input class="input100" type="text" name="username" placeholder="Username">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
@@ -36,7 +37,7 @@
 						</span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+					<div class="wrap-input100 validate-input" data-validate = "Password is Required">
 						<input class="input100" type="password" name="pass" placeholder="Password">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
@@ -61,7 +62,7 @@
 
 					<div class="text-center p-t-136">
 						<a class="txt2" href="#">
-							Create your Account
+							Powered by Networrkers
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
 					</div>
