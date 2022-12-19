@@ -17,7 +17,7 @@
     if ($row['username'] == $username && $row['password'] == $password && $row['role'] == "employee"){
         //echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
         session_start();
-        header("Location: employee.php");
+        header("Location: employee/employee.php");
         $_SESSION['fname'] = $row['fullname'];
         $_SESSION['url'] = $row['caldav'];
     }
@@ -25,7 +25,7 @@
     if ($row['username'] == $username && $row['password'] == $password && $row['role'] == "teamleader"){
         //echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
         session_start();
-        header("Location: teamleader.php");
+        header("Location: teamleader/teamleader.php");
         $_SESSION['fname'] = $row['fullname'];
         $_SESSION['url'] = $row['caldav'];
     }
@@ -33,7 +33,7 @@
     if ($row['username'] == $username && $row['password'] == $password && $row['role'] == "admin"){
         //echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
         session_start();
-        header("Location: admin.php");
+        header("Location: admin/admin.php");
         $_SESSION['fname'] = $row['fullname'];
         $_SESSION['url'] = $row['caldav'];
     }
