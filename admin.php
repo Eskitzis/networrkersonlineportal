@@ -12,7 +12,8 @@
     <title>Admin</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-custom navbar-mainbg">
+<!--//////////////////////////////////////////NAVBAR START////////////////////////////////////////-->
+<nav class="navbar navbar-expand-custom navbar-mainbg">
         <a class="navbar-brand navbar-logo" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars text-white"></i>
@@ -62,5 +63,6 @@
             </ul>
         </div>
     </nav>
+<!--//////////////////////////////////////////NAVBAR END//////////////////////////////////////////-->
 </body>
 </html>
