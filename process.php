@@ -21,7 +21,7 @@
     $row = mysqli_fetch_array($result, MYSQLI_BOTH);
 
     if ($row['username'] == $username && $row['password'] == $password && $row['role'] == "employee"){
-        //echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
+        echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
         header("Location: employee.php");
         session_start();
         //$_SESSION['fname'] = $row['fullname'];
@@ -29,7 +29,7 @@
         //$_SESSION['sk'] = $row['skill'];
     }
     if ($row['username'] == $username && $row['password'] == $password && $row['role'] == "teamleader"){
-        //echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
+        echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
         header("Location: teamleader.php");
         session_start();
         //$_SESSION['fname'] = $row['fullname'];
@@ -37,7 +37,7 @@
         //$_SESSION['sk'] = $row['skill'];
     }
     if ($row['username'] == $username && $row['password'] == $password && $row['role'] == "admin"){
-        //echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
+        echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
         header("Location: admin.php");
         session_start();
         //$_SESSION['fname'] = $row['fullname'];
