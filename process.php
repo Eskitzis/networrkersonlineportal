@@ -1,4 +1,5 @@
 <?php
+    error_reporting(0);
     //values passed from index form
     $username = $_POST['user'];
     $password = $_POST['pass'];
