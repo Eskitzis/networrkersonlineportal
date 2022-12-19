@@ -23,18 +23,18 @@
 
 
     if ($row['role'] == "employee"){
-        //echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
-        header("Location: employee.php");
-        //session_start();
+        echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
+        //header("Location: employee.php");
+        session_start();
     }
     if ($row['role'] == "teamleader"){
-        //echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
-        header("Location: teamleader.php");
-        //session_start();
+        echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
+        //header("Location: teamleader.php");
+        session_start();
     }
     if ($row['role'] == "admin"){
-        //echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
-        header("Location: weekplan.html");
-        //session_start();
+        echo "Login Success!!! Welcome ".$row['username']." ".$row['role'];
+        //header("Location: admin.php");
+        session_start();
     }
 ?>
