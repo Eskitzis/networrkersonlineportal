@@ -3,10 +3,10 @@
     $password = $_POST['pass'];
 
     //prevent injections
-    //$username = stripcslashes($username);
-    //$password = stripcslashes($password);
-    $username = mysql_real_escape_string($username);
-    $password = mysql_real_escape_string($password);
+    $username = stripcslashes($username);
+    $password = stripcslashes($password);
+    //$username = mysql_real_escape_string($username);
+    //$password = mysql_real_escape_string($password);
 
     $con = mysqli_connect('v2202208181594198845.nicesrv.de', 'nassos', 'nassos1106', 'users');
 
