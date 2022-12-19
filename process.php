@@ -3,8 +3,8 @@
     $password = $_POST['pass'];
 
     //prevent injections
-    $username = stripcslashes($username);
-    $password = stripcslashes($password);
+    //$username = stripcslashes($username);
+    //$password = stripcslashes($password);
     //$username = mysql_real_escape_string($username);
     //$password = mysql_real_escape_string($password);
 
