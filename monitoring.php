@@ -19,13 +19,13 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
     <script src="js/admin.js"></script>
-    <title>Admin</title>
+    <title>Monitoring</title>
 </head>
 <body>
 <!--//////////////////////////////////////////NAVBAR START////////////////////////////////////////-->
 <div class="container-fluid px-0">
     <nav class="navbar navbar-expand-sm navbar-dark bg-black py-0 px-0">
-        <a class="navbar-brand" href="#"><img id="logo" src="https://peaceful-hypatia.185-207-107-69.plesk.page/images/logo.png"> &nbsp;&nbsp;&nbsp;Dashboard</a>
+        <a class="navbar-brand" href="javascript:history.back()"><img id="logo" src="https://peaceful-hypatia.185-207-107-69.plesk.page/images/logo.png"> &nbsp;&nbsp;&nbsp;Dashboard</a>
         <span class="v-line"></span>
         <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
