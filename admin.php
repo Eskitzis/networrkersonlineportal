@@ -33,16 +33,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fa fa-television" aria-hidden="true"></i>Monitoring</a>
+                    <a class="nav-link" href="#"><i class="fa fa-television" aria-hidden="true"></i> Monitoring</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-database" aria-hidden="true"></i>Database</a>
+                    <a class="nav-link" href="#"><i class="fa fa-database" aria-hidden="true"></i> Database</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-users" aria-hidden="true"></i>Users</a>
+                    <a class="nav-link" href="#"><i class="fa fa-users" aria-hidden="true"></i> Users</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-server" aria-hidden="true"></i>MeshCentral</a>
+                    <a class="nav-link" href="#"><i class="fa fa-server" aria-hidden="true"></i> MeshCentral</a>
                 </li>
             </ul>
         </div>
