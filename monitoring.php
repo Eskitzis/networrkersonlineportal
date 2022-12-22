@@ -33,16 +33,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="monitoring.php"><i class="fa fa-television" aria-hidden="true"></i> Monitoring</a>
+                    <a class="nav-link" href="thessaloniki.php"><i class="fa fa-street-view" aria-hidden="true"></i> Thessaloniki</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="admin_database.php"><i class="fa fa-database" aria-hidden="true"></i> Database</a>
+                    <a class="nav-link" href="katerini.php"><i class="fa fa-street-view" aria-hidden="true"></i> Katerini</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="admin_users.php"><i class="fa fa-users" aria-hidden="true"></i> Users</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://meshcentral.com/login"><i class="fa fa-server" aria-hidden="true"></i> MeshCentral</a>
+                    <a class="nav-link" href="kastoria.php"><i class="fa fa-street-view" aria-hidden="true"></i> Kastoria</a>
                 </li>
             </ul>
         </div>
