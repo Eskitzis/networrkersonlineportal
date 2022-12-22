@@ -21,7 +21,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>    
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
     <script src="js/admin.js"></script>
-    <title>Monitoring</title>
+    <title>Katerini</title>
 </head>
 <body>
 <!--//////////////////////////////////////////NAVBAR START////////////////////////////////////////-->
@@ -63,7 +63,7 @@
             </tr>
             <tr>
                 <td>
-                    NW01
+                    KT01
                 </td>
                 <td>
                     <input type="button" value="PREVIEW">
