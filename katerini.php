@@ -10,10 +10,8 @@
     <link rel="icon" href="images/logo.png">
 	<link rel="stylesheet" type="text/css" href="styles/admin.css">
     <link rel="stylesheet" type="text/css" href="styles/monitoring.css">
-
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
 	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
@@ -63,20 +61,24 @@
             </tr>
             <tr>
                 <td>
-                    KT01
+                    NW01
                 </td>
                 <td>
-                    <input type="button" value="PREVIEW">
-                    <input type="button" value="FULL ACCESS">
-
+                    <button onclick="changeIframe('http://94.70.133.115:8080/#/client/MQBjAHBvc3RncmVzcWw')">PREVIEW</button>
+                    <button>FULL ACCESS</button>
                 </td>
             </tr>
         </table>
     </div>
 
     <div class="column2 container">
-        <iframe src="test/Screenshot from 2022-12-19 14-46-54.png" frameborder="0" width="100%" height="700px"></iframe>
+        <iframe id="preview_monitoring" src="" frameborder="0" width="100%" height="700px" style="overflow:scroll;" scrolling="no"></iframe>
     </div>
 </div>
+<script type="text/javascript">
+    function changeIframe(change) {
+     document.getElementById('preview_monitoring').src = change;
+    }
+</script>
 </body>
 </html>

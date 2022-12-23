@@ -64,17 +64,21 @@
                     NW01
                 </td>
                 <td>
-                    <input type="button" value="PREVIEW">
-                    <input type="button" value="FULL ACCESS">
-
+                    <button onclick="changeIframe('http://94.70.133.115:8080/#/client/MQBjAHBvc3RncmVzcWw')">PREVIEW</button>
+                    <button>FULL ACCESS</button>
                 </td>
             </tr>
         </table>
     </div>
 
     <div class="column2 container">
-        <iframe src="test/Screenshot from 2022-12-19 14-46-54.png" frameborder="0" width="100%" height="700px"></iframe>
+        <iframe id="preview_monitoring" src="" frameborder="0" width="100%" height="700px" style="overflow:scroll;" scrolling="no"></iframe>
     </div>
 </div>
+<script type="text/javascript">
+    function changeIframe(change) {
+     document.getElementById('preview_monitoring').src = change;
+    }
+</script>
 </body>
 </html>
