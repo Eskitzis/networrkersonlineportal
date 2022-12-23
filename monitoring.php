@@ -71,7 +71,7 @@
     </div>
 
     <div class="column2 container">
-        <object type="text/html" data="http://94.70.133.115:8080/#/client/MQBjAHBvc3RncmVzcWw" width="100%" height="700px" style="overflow:auto;"></object>
+        <object type="text/html" data="//http://94.70.133.115:8080/#/client/MQBjAHBvc3RncmVzcWw" width="100%" height="700px" style="overflow:auto;"></object>
     </div>
 </div>
 <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
