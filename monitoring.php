@@ -63,7 +63,7 @@
                     NW01
                 </td>
                 <td>
-                    <button onclick="changeIframe('//http://94.70.133.115:8080/#/client/MQBjAHBvc3RncmVzcWw')">PREVIEW</button>
+                    <button onclick="changeIframe('http://94.70.133.115:8080/#/client/MQBjAHBvc3RncmVzcWw')">PREVIEW</button>
                     <button>FULL ACCESS</button>
                 </td>
             </tr>
@@ -71,7 +71,7 @@
     </div>
 
     <div class="column2 container">
-        <iframe id="preview_monitoring" src="" frameborder="0" width="100%" height="700px" style="overflow:scroll;" scrolling="no"></iframe>
+        <object type="text/html" data="http://94.70.133.115:8080/#/client/MQBjAHBvc3RncmVzcWw" width="100%" height="700px" style="overflow:auto;"></object>
     </div>
 </div>
 <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
