@@ -71,7 +71,7 @@
     </div>
 
     <div class="column2 container">
-        <object type="text/html" data="//http://94.70.133.115:8080/#/client/MQBjAHBvc3RncmVzcWw" width="100%" height="700px" style="overflow:auto;"></object>
+        <iframe id="preview_monitoring" src="display.html" frameborder="0" width="100%" height="700px" style="overflow:scroll;" scrolling="no"></iframe>
     </div>
 </div>
 <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
