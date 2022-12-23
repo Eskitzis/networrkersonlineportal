@@ -72,7 +72,9 @@
     </div>
 
     <div class="column2 container">
-        <iframe id="preview_monitoring" src="display.html" frameborder="0" width="100%" height="700px" style="overflow:scroll;" scrolling="no"></iframe>
+        <div>
+            <iframe id="preview_monitoring" src="display.html" frameborder="0" width="100%" height="700px" style="overflow:scroll;" scrolling="no"></iframe>
+        </div>
     </div>
 </div>
 <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
