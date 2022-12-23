@@ -63,7 +63,7 @@
                     NW01
                 </td>
                 <td>
-                    <button onclick="changeIframe('http://94.70.133.115:8080/#/client/MQBjAHBvc3RncmVzcWw')">PREVIEW</button>
+                    <button onclick="changeIframe('//94.70.133.115:8080/#/client/MQBjAHBvc3RncmVzcWw')">PREVIEW</button>
                     <button>FULL ACCESS</button>
                 </td>
             </tr>
