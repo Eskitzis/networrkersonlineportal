@@ -1,6 +1,7 @@
 <?php
     session_start();
 ?>
+<?php header('X-Frame-Options: DENY'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
